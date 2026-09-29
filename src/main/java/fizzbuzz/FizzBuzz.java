@@ -13,7 +13,7 @@ public class FizzBuzz {
 
         switch (tracker) {
             case 0 -> {
-                return num + "";
+                return String.valueOf(num);
             }
             case 1 -> {
                 return "Fizz";
