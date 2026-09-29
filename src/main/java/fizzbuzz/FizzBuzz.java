@@ -1,7 +1,7 @@
 package fizzbuzz;
 
 public class FizzBuzz {
-    public String isFizzBuzz(int num) {
+    public String isFizzBuzz(int num) throws RuntimeException {
         int tracker = 0;
         if (num % 3 == 0) {
             tracker += 1;
