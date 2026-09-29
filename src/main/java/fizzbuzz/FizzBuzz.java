@@ -34,5 +34,4 @@ public class FizzBuzz {
             System.out.println(i + " = " + this.isFizzBuzz(i));
         }
     }
-
 }

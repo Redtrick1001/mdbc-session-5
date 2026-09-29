@@ -26,12 +26,10 @@ public class Main {
                     break;
                 }
             } catch (Exception e) {
-                scanner.close();
                 System.out.println(e.getMessage());
             }
         }
         System.out.println("bye");
         scanner.close();
-
     }
 }
